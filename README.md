@@ -11,3 +11,7 @@ slighlty below 80%. With more niche or discminate categories, it is likely to ac
 There are two main scripts in this repo: *tag_generator.py* and *Insights_From_Photos_word2vec.ipynb*.
 
 ## tag_generator.py ##
+This file is used to automatically generate tags for photos. In its current form it outputs tags for every photo in a folder into a JSON formatted text file
+
+## Insights_From_Photos_word2vec.ipynb ##
+This python notebook reads the tags from the text files and transfers the data and classification into a Pandas dataframe which is then used to build the word2vec model for the specific lifestyle categories.
