@@ -1,5 +1,5 @@
 # Insights-From-Personal-Photos
-Categorizing social media photos into lifestyle categories. 
+Categorizing photos into lifestyle categories. 
 
 ## Summary ##
 The purpose of this project is to categorize an individual into a specific lifestyle category based on their photos.
