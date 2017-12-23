@@ -1,8 +1,8 @@
 # Insights-From-Personal-Photos
-Categorizing photos into lifestyle categories. 
+Classifying photos into lifestyle categories. 
 
 ## Summary ##
-The purpose of this project is to categorize an individual into a specific lifestyle category based on their photos.
+The purpose of this project is to classify an individual into a specific lifestyle category based on their photos.
 The training set of images is organized by lifestyle. Using the Clarifai API, image tags are generated for each photo.
 We then aggregate the tags and classifications in order to build a word2vec model. This repository has sample lifestyle categories 
 such as 'foodie', 'outdoorsy', 'family', and 'sporty'. Given the current dataset and categories, the testing accuracy falls
