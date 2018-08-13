@@ -6,7 +6,7 @@ The purpose of this project is to classify an individual into a specific lifesty
 The training set of images is organized by lifestyle. This repository has sample lifestyle categories 
 such as 'foodie', 'outdoorsy', 'family', and 'sporty'. Using the Clarifai API, image tags are generated for each photo.
 We then aggregate the tags and training classifications in order to build a word2vec model.  Given the current dataset and categories, the testing accuracy falls
-slighlty below 80%. With more niche or discminate categories, it is likely to achieve a higher accurracy.
+slighlty below 90%. With more niche or discminate categories, it is likely to achieve a higher accurracy.
 
 There are two main scripts in this repo: *tag_generator.py* and *Insights_From_Photos_word2vec.ipynb*.
 
